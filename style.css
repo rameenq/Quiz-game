@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 1rem;
+  color: #fff;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1rem;
+  text-decoration: underline;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#quiz-container {
+  background-color: #fff;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#timer {
+  text-align: right;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+#question {
+  margin-bottom: 1rem;
+}
+
+#options {
+  display: flex;
+  flex-direction: column;
+}
+
+.option {
+  background-color: #f2f2f2;
+  color: #333;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.option:hover {
+  background-color: #ddd;
+}
+
+.selected {
+  background-color: #ccc;
+}
+
+#result-container {
+  display: none;
+  margin-top: 1rem;
+}
+
+#result {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+#initials {
+  display: none;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#save-button {
+  display: none;
+  padding: 0.5rem 1rem;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#high-scores-container {
+  display: none;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#high-scores-container h2 {
+  margin-bottom: 1rem;
+}
+
+#high-scores-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1rem;
+}
+
+#high-scores-list li {
+  margin-bottom: 0.5rem;
+}
+
+#go-back,
+#clear-scores {
+  padding: 0.5rem 1rem;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+
+#go-back:hover,
+#clear-scores:hover {
+  background-color: #555;
+}
