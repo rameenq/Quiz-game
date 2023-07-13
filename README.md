@@ -4,6 +4,11 @@ JavaScript Quiz Game
 
 This is a simple JavaScript quiz game that tests your knowledge of JavaScript fundamentals. The game presents multiple-choice questions and keeps track of your score and remaining time.
 
+link to game: https://rameenq.github.io/Quiz-game/
+
+<img width="1396" alt="Untitled" src="https://github.com/rameenq/Quiz-game/assets/126428649/bf81b338-f72f-4023-bd22-622033524b8c">
+
+
 Features
 
 Multiple-choice questions: The game includes a set of pre-defined questions with four answer options each.
